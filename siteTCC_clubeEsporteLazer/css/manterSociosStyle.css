@@ -1,0 +1,171 @@
+header#header{
+    border-bottom: solid black 2px;
+    background-color: #005F40;
+    width: 85%;
+    margin: 50px auto auto auto;
+    border: solid black 2px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+a.linksNav{
+    text-align: left;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+a.linksNav:hover{
+    background-color: white;
+    color: #005F40;
+    border-radius: 10px;
+}
+
+img.logopag{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div#main{
+    background-color: #ffffff;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin: -4px auto 0px auto;
+    height: 100%;
+}
+
+div#h1Config{
+    width: 120%;
+}
+
+div#main > div#h1Config > h1{
+    text-align: center;
+    background-image: linear-gradient(to right, transparent, #005F40, transparent);
+    color: white;
+}
+
+footer#rodape{
+    background-color: #005F40;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -2px;
+    border: solid black 2px;
+    width: 85%;
+    border-radius: 0px 0px 30px 30px;
+}
+
+footer#rodape > p{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+
+}
+
+footer#rodape > p > a.negrito{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#linkConfirmar{
+    margin-top: -150px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+td{
+    padding: 7px;
+    border: 1px solid black;
+    background: #005F40;
+    
+}
+.impar{
+    background: white;
+    
+}
+.titulo{
+    background: #005F40;
+    color: white;
+}
+#cancelar{
+    height: 40px;
+    width: 130px;
+    float: right;
+    margin-bottom: 20px;
+    /*border: black 1px solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#pesquisarCancelar{
+    height: 40px;
+    width: 130px;
+    float: right;
+    margin-bottom: 20px;
+    /*border: black 1px solid;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#cadastro{
+    font-size: 1.4em;
+}
+
+#pesquisar{
+    width: 248px;
+}
+
+#pesquisarF{
+    width: 200px;
+}
+
+#buscar, #adicionar{
+    width: 85px;
+}
+
+#buscarF, #adicionarF{
+    width: 81px;
+}
+
+#pesquisarBuscar{
+    width: 100px;
+}
+
+#pesquisarBuscarF{
+    width: 105px;
+}
+
+#palavras{
+    color: #005F40;
+    font-weight: bolder;
+}
+p, label{
+    font-weight: bolder;
+}
+.bot{
+    text-decoration: none;
+}
+.imge{
+    padding-right: 5px;
+}

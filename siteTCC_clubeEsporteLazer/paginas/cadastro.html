@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/cadastroStyle.css">
+    <link rel="shortcut icon" href="../imagens/logo32x32.png" type="image/x-icon">
+
+    <script defer src="../javaScript/cadastrar.js"></script>
+    
+</head>
+<body>
+    <div id="principal">
+         <fieldset id="dadosLogin">
+            <legend id="dL">Dados de cadastro</legend>
+            <form action="" id="cadastrar">
+                <label for="usuario" id="lblUsuario" class="inf">Usuário:</label>
+                <input type="text" autocomplete="off" id="usuario2" class="configInput" placeholder="Nome">
+
+                <label for="senha" id="lblSenha" class="inf">Senha:</label>
+                <input type="password" autocomplete="off" id="senha2" class="configInput" placeholder="Senha">
+
+                <label for="endereco" id="lblEndereco" class="inf">CPF:</label>
+                <input type="text" autocomplete="off" id="cpf" class="configInput" placeholder="CPF do usuário">
+            </form>
+            <input type="button" value="Cadastrar" class="cadastrar" id="btnCadastro" onclick="cadastrar()">
+        </fieldset>
+    </div>
+</body>
+</html>

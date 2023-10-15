@@ -1,0 +1,70 @@
+body{
+    overflow: hidden;
+}
+
+#principal{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+fieldset#dadosLogin{
+    height: 430px;
+    width: 450px;
+    font-weight: 350;
+    color: white;
+    border-radius: 3px;
+}
+
+form {
+    width: 410px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 0.7);
+    font-weight: 350;
+    color: white;
+    border: none;
+}
+
+ #dL{
+     margin: 0 auto;
+     font-size: 1.9em;
+     margin-bottom: 50px;
+}
+label.inf{
+    color: white;
+    font-weight: 450;
+    
+}
+.configInput{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+    background: #ffffffe6;
+    padding-left: 10px;
+    color: black;
+}
+::placeholder{
+    padding: 10px;
+    font-size: 0.9em;
+}
+#btnCadastro{
+    font-size: 0.9em;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 300px;
+    background: #005f40;
+    color: white;
+    height: 50px;
+    margin-top: 10%;
+    cursor: pointer;
+}

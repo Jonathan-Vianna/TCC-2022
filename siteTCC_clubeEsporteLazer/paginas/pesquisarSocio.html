@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de sócios</title>
+
+    <link rel="shortcut icon" href="../imagens/logo32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/manterSociosStyle.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="../imagens/logo.png" alt="logotipo do clube" class="logopag">
+            <a href="manterSocios.html" class="linksNav">Manter sócios</a>
+            <a href="verificacaoManterFuncionarios.html" class="linksNav">Manter funcionários</a>
+            <a href="pagamentos.html" class="linksNav">Pagamentos</a>
+        </nav>
+        <br>
+    </header>
+
+    <div id="main">
+        <div id="h1Config"><h1>Busca de sócios</h1></div>
+
+        <div id="paginaInicial">
+            <div id="tituloP_Inicial">
+                <p>Cadastro de sócios</p>
+            </div>
+            <div>
+                <form action="">
+                    <label for="pesquisar">Pesquisar:</label>
+                    <input type="text" name="pesquisar" id="pesquisar" value="Friedrich Nietzsche">
+                    <button id="pesquisarBuscar">Buscar</button>
+                </form>
+                <table id="tabela">
+                    <tr>
+                        <td class="titulo">Nome</td>
+                        <td class="titulo">CPF</td>
+                        <td class="titulo">Telefone</td>
+                        <td class="titulo">Ação</td>
+                    </tr>
+
+                    <tr>
+                        <td class="impar">Friedrich Nietzsche</td>
+                        <td class="impar">144666873</td>
+                        <td class="impar">33186788</td>
+                        <td class="impar">
+                            <a href="excluirSocios.html"><img src="../imagens/lixeira.png" alt=""></a>
+                            <a href="editarSocios/editarSocio1.html"><img src="../imagens/lapis.png" alt=""></a>
+                            <a href="visualizarSocios/visualizarSocio1.html"><img src="../imagens/olho.png" alt=""></a>
+                            <a href="calendarios/marcarHorarios1.html"><img src="../imagens/calendario.png" alt=""></a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>ㅤ</td>
+                        <td>ㅤ</td>
+                        <td>ㅤ</td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="impar">ㅤ</td>
+                        <td class="impar">ㅤ</td>
+                        <td class="impar">ㅤ</td>
+                        <td class="impar">
+                            
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>ㅤ</td>
+                        <td>ㅤ</td>
+                        <td>ㅤ</td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </table>
+
+                <a href="manterSocios.html"><button id="pesquisarCancelar"><img src="../imagens/cancelar.png" alt="">Cancelar</button></a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="rodape">
+        <p>&copy;Projeto desenvolvido por: <a href="" class="negrito">Bianca Novaes</a> e <a href="" class="negrito">Jonathan Vianna</a></p>
+    </footer>
+    
+</body>
+</html>

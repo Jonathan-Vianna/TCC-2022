@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../..//css/editar.css">
+    <link rel="shortcut icon" href="../../imagens/logo32x32.png" type="image/x-icon">
+    
+    <script defer src="../../javaScript/editar.js"></script>
+    <title>Editar sócios</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="../../imagens/logo.png" alt="logotipo do clube" class="logopag">
+            <a href="../../paginas/manterSocios.html" class="linksNav">Manter sócios</a>
+            <a href="../../paginas/verificacaoManterFuncionarios.html" class="linksNav">Manter funcionários</a>
+            <a href="../../paginas/horarios/manterHorarios.html" class="linksNav">Manter horários</a>
+            <a href="../../paginas/pagamentos.html" class="linksNav">Pagamentos</a>
+        </nav>
+        <br>
+    </header>
+
+    <div id="main">
+        <h1>Edição de dados dos sócios</h1>
+
+        <div id="inputs">
+            <div id="alinhamento">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" value="Luciana Teixeira Assis" id="nome" class="texts"><br>
+
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf" value="144666873" id="cpf" class="texts"><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="text" name="tel" value="33186788" id="tel" class="texts"><br>
+            </div>
+        </div>
+        
+        <input type="submit" name="atualizar" id="atualizar" onclick="atualizarSocio()" value="Atualizar">
+        <a href="../../paginas/manterSocios.html"><input type="button" value="Fechar" id="fechar"></a>
+
+    </div>
+
+    <footer id="rodape">
+        <p>&copy;Projeto desenvolvido por: <a href="" class="negrito">Bianca Novaes</a> e <a href="" class="negrito">Jonathan Vianna</a></p>
+    </footer>
+</body>
+</html>

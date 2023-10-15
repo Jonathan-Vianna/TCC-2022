@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações dos sócios</title>
+
+    <link rel="shortcut icon" href="../imagens/logo32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/manterSociosStyle.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="../imagens/logo.png" alt="logotipo do clube" class="logopag">
+            <a href="menu.html" class="linksNav">Menu</a>
+            <a href="manterSocios.html" class="linksNav">Manter sócios</a>
+            <a href="verificacaoManterFuncionarios.html" class="linksNav">Manter funcionários</a>
+            <a href="../paginas/horarios/manterHorarios.html" class="linksNav">Manter horários</a>
+            <a href="../paginas/pagamentos.html" class="linksNav">Pagamentos</a>
+        </nav>
+        <br>
+    </header>
+
+    <div id="main">
+        <div id="h1Config"><h1>Área manter sócio</h1></div>
+
+        <div id="paginaInicial">
+            <div id="tituloP_Inicial">
+                <p id="cadastro">Cadastro de sócios</p>
+            </div>
+            <div>
+                <form action="">
+                    <label for="pesquisar" id="pesquisar">Pesquisar:</label>
+                    <input type="text" name="pesquisar" id="pesquisar" placeholder="Digite um nome">
+                    <a href="../paginas/pesquisarSocio.html"><input type="button" value="Buscar" id="buscar"></a>
+                    <a href="adicionarSocios.html"><input type="button" name="" id="adicionar" value="Adicionar"></a>
+                </form>
+                <table id="tabela">
+                    <tr>
+                        <td class="titulo">Nome</td>
+                        <td class="titulo">CPF</td>
+                        <td class="titulo">Telefone</td>
+                        <td class="titulo">Ação</td>
+                    </tr>
+
+                    <tr>
+                        <td class="impar">Friedrich Nietzsche</td>
+                        <td class="impar">144666873</td>
+                        <td class="impar">33186788</td>
+                        <td class="impar">
+                            <a href="excluirSocios.html"><img src="../imagens/lixeira.png" alt=""></a>
+                            <a href="editarSocios/editarSocio1.html"><img src="../imagens/lapis.png" alt=""></a>
+                            <a href="visualizarSocios/visualizarSocio1.html"><img src="../imagens/olho.png" alt=""></a>
+                            <a href="calendarios/marcarHorarios1.html"><img src="../imagens/calendario.png" alt=""></a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Jurandir Azevedo da Siqueira</td>
+                        <td>144666873</td>
+                        <td>33186788</td>
+                        <td>
+                            <a href="excluirSocios.html"><img src="../imagens/lixeira.png" alt=""></a>
+                            <a href="editarSocios/editarSocio2.html"><img src="../imagens/lapis.png" alt=""></a>
+                            <a href="visualizarSocios/visualizarSocio2.html"><img src="../imagens/olho.png" alt=""></a>
+                            <a href="calendarios/marcarHorarios2.html"><img src="../imagens/calendario.png" alt=""></a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="impar">Luciana Teixeira Assis</td>
+                        <td class="impar">144666873</td>
+                        <td class="impar">33186788</td>
+                        <td class="impar">
+                            <a href="excluirSocios.html"><img src="../imagens/lixeira.png" alt=""></a>
+                            <a href="editarSocios/editarSocio3.html"><img src="../imagens/lapis.png" alt=""></a>
+                            <a href="visualizarSocios/visualizarSocio3.html"><img src="../imagens/olho.png" alt=""></a>
+                            <a href="calendarios/marcarHorarios3.html"><img src="../imagens/calendario.png" alt=""></a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Aline Informática Etesc</td>
+                        <td>144666873</td>
+                        <td>33186788</td>
+                        <td>
+                            <a href="excluirSocios.html"><img src="../imagens/lixeira.png" alt=""></a>
+                            <a href="editarSocios/editarSocio4.html"><img src="../imagens/lapis.png" alt=""></a>
+                            <a href="visualizarSocios/visualizarSocio4.html"><img src="../imagens/olho.png" alt=""></a>
+                            <a href="calendarios/marcarHorarios4.html"><img src="../imagens/calendario.png" alt=""></a>
+                        </td>
+                    </tr>
+                </table>
+
+                <p id="palavras"> &lt;&lt; 1  2  3  4  5 &gt;&gt;</p>
+                <a href="menu.html"><button id="cancelar"><img src="../imagens/cancelar.png" alt="">Cancelar</button></a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="rodape">
+        <p>&copy;Projeto desenvolvido por: <a href="" class="negrito">Bianca Novaes</a> e <a href="" class="negrito">Jonathan Vianna</a></p>
+    </footer>
+    
+</body>
+</html>

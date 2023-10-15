@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: none;
+    font-family: 'Fredoka', 'sans-serif';
+}
+div#excluir{
+    border: 3px #005F40 solid;
+    height: 200px;
+    width: 350px;
+    padding: 100px;
+    margin-top: 8%;
+}
+
+#meiodaDiv{
+    border-top: 3px #005F40 solid;
+    border-bottom: 3px #005F40 solid;
+    height: 200px;
+    width: 550px;
+    margin-left: -100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#confirmacao{
+    border: 3px #005F40 solid;
+    margin-top: 25px;
+    height: 200px;
+    width: 300px;
+}
+#tituloDiv{
+    margin-top: -50px;
+    font-size: 1.4em;
+}
+
+#paragrafo{
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+
+.botao{
+    width: 60px;
+    height: 30px;
+    align-items: center;
+    width: 100px;
+}
+.bt{
+    padding-right: 3px;
+}
+iframe{
+    height: 350px;
+    width: 400px;
+}
+
+#codigo{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    height: 20px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button{
+    cursor: pointer;
+}

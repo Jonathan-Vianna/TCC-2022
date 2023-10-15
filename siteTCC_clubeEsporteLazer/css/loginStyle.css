@@ -1,0 +1,74 @@
+
+div#caixaLogin{
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    height: 500px;
+    width: 400px;
+    text-align: left;
+    font-weight: 350;
+    color: white;
+    border-radius: 10px;
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bt{
+    font-size: 0.9em;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #005f40;
+    color: #ffffff;
+    height: 50px;
+    width: 360px;
+    cursor: pointer;
+    border: 1px black solid;
+}
+
+#botoes > #ou{
+    margin-top: 30px;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+    color: white;
+}
+
+input.princ{
+    height: 55px;
+    width: 315px;
+    padding-left: 40px;
+    margin-left: 21px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    font-size: 0.9em;
+}
+
+input#usuario{
+    border: 1px black solid;
+    background: url('../imagens/icone-usuario.png') no-repeat left #ffffffe6;
+    background-position: 10px;
+    color: black;
+}
+input#senha{
+    border: 1px black solid;
+    background: url('../imagens/icone-cadeado.png') no-repeat left #ffffffe6;
+    background-position: 10px;
+    color: black;
+    margin-bottom: 13%;
+}
+
+h1{
+    padding: 5%;
+    padding-bottom: 5%;
+    font-size: 1.7em;
+    
+}

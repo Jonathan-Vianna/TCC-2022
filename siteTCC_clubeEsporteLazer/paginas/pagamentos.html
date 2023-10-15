@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Horários</title>
+    <link rel="shortcut icon" href="../imagens/logo32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/pagamentoStyle.css">
+
+    <script defer src="../javaScript/pagamentos.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="../imagens/logo.png" alt="logotipo do clube" class="logopag">
+            <a href="menu.html" class="linksNav">Menu</a>
+            <a href="manterSocios.html" class="linksNav">Manter sócios</a>
+            <a href="verificacaoManterFuncionarios.html" class="linksNav">Manter funcionários</a>
+            <a href="../paginas/horarios/manterHorarios.html" class="linksNav">Manter horários</a>
+            <a href="pagamentos.html" class="linksNav">Pagamentos</a>
+        </nav>
+        <br>
+    </header>
+
+    <div id="main">
+        <div id="h1Config">
+            <h1>Pagamentos</h1>
+        </div>
+
+        <form action="" id="Pagamentos">
+            <div id="elementos">
+                <fieldset id="formasDePagamento">
+                    <legend id="tituloFormPagamento">Formas de pagamentos</legend>
+                
+                    <div id="radioDinheiro">
+                        <input type="radio" name="formaDePagamento" id="dinheiro" class="formaDePagamento">
+                        <label for="dinheiro">&#x1F4B5;Dinheiro</label>
+                    </div>
+                    <br>
+                    <input type="radio" name="formaDePagamento" id="PIX" class="formaDePagamento">
+                    <label for="PIX"><img src="../imagens/logo_pix.png" alt="PIX" srcset=""></label>
+                </fieldset>
+                <fieldset id="outros">
+                    <label for="inputQuantia">Informe a quantia (R$):</label>
+                    <input type="text" name="quantia" id="inputQuantia">
+                    <div>
+                        <input type="checkbox" name="checkBonus" id="inputCheckBonus">
+                        <label for="inputCheckBonus" id="lblBonus">11ª Vez de uso</label>
+                    </div>
+                    <p id="mensagemDesconto">
+                        *Caso o cliente esteja utilizando o clube pela 11ª vez, será disponiilizado 5% de desconto.
+                    </p>
+                    <p id="tituloPIX">Nossa chave PIX:</p>
+                    <p id="PIX">21 98077-0857</p>
+                </fieldset>
+            </div>
+
+            <div id="Btns">
+                <fieldset id="fieldsetBtns">
+                    <button type="submit" value="Confirmar" onclick="pagar()">
+                        <img src="../imagens/ok.png" alt="&#x2714;">Confirmar
+                    </button>
+                    <button type="reset">
+                        <img src="../imagens/borracha.png" alt="">Limpar
+                    </button>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+
+    <footer id="rodape">
+        <p>&copy;Projeto desenvolvido por: <a href="" class="negrito">Bianca Novaes</a> e <a href="" class="negrito">Jonathan Vianna</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição de sócios</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/adicionarSocios.css">
+    <link rel="shortcut icon" href="../imagens/logo32x32.png" type="image/x-icon">
+
+    <script defer src="../javaScript/cadastrar.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="../imagens/logo.png" alt="logotipo do clube" class="logopag">
+            <a href="manterSocios.html" class="linksNav">Manter sócios</a>
+            <a href="verificacaoManterFuncionarios.html" class="linksNav">Manter funcionários</a>
+            <a href="../paginas/pagamentos.html" class="linksNav">Pagamentos</a>
+        </nav>
+        <br>
+    </header>
+
+    <div id="main">
+        <h1>Inscrição de sócios</h1>
+
+        <form action="">
+
+            <div id="cpfNome">
+                <label for="cpf">CPF<span>*</span></label>
+                <input type="text" name="cpf" id="cpf">
+
+                <label for="nome" id="lblNome">Nome<span>*</span></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <br>
+            <br>
+
+            <div id="emailWhats">
+                <label for="email">Email<span>*</span> </label>
+                <input type="text" name="email" id="email">
+            
+                <label for="whatsapp" id="lblWhats">WhatsApp<span>*</span> </label>
+                <input type="tel" name="whatsapp" id="whatsapp">
+            </div>
+
+            <br>
+            <br>
+
+            <div id="preenchimentoBotoes">
+                <p id="preenchimento">* Preenchimento obrigatório</p>
+                <input type="button" value="Salvar" id="salvar" class="botoes" onclick="cadastrarS()">
+                <input type="reset" value="Limpar" id="limpar" class="botoes">
+                <a href="manterSocios.html"><input type="button" value="Cancelar" id="cancelar" class="botoes"></a>
+            </div>
+        </form>
+    </div>
+
+    <footer id="rodape">
+        <p>&copy;Projeto desenvolvido por: <a href="" class="negrito">Bianca Novaes</a> e <a href="" class="negrito">Jonathan Vianna</a></p>
+    </footer>
+</body>
+</html>

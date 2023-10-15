@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Horários</title>
+
+    <link rel="shortcut icon" href="../../imagens/logo32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/marcarHorario.css">
+
+    <script defer src="../../javaScript/agendamentos.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <img src="../../imagens/logo.png" alt="logotipo do clube" class="logopag">
+            <a href="../../paginas/manterSocios.html" class="linksNav">Manter sócios</a>
+            <a href="../../paginas/verificacaoManterFuncionarios.html" class="linksNav">Manter funcionários</a>
+            <a href="../../paginas/horarios/manterHorarios.html" class="linksNav">Manter horários</a>
+            <a href="../../paginas/pagamentos.html" class="linksNav">Pagamentos</a>
+        </nav>
+        <br>
+    </header>
+
+    <div id="main">
+        <div id="h1Config"><h1>Agendar Horários</h1></div>
+
+        <div id="paginaInicial">
+            <div id="tituloP_Inicial">
+            </div>
+            <div>
+                <form action="">
+                    <p>Sócio: Aline Informática Etesc</p>
+                </form>
+                <div id="tabelaHorario">
+                    <table id="tabela">
+                        <thead>
+                            <tr>
+                                <th colspan="7" id="mes">Agosto</th>
+                            </tr>
+                        </thead>
+                        <tr id="">
+                            <td class="dias">D</td>
+                            <td class="dias">S</td>
+                            <td class="dias">T</td>
+                            <td class="dias">Q</td>
+                            <td class="dias">Q</td>
+                            <td class="dias">S</td>
+                            <td class="dias">S</td>
+                        </tr>
+                        <tr>
+                            <td class="opaco">31</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                            <td>13</td>
+                        </tr>
+
+                        <tr>
+                            <td>14</td>
+                            <td>15</td>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>18</td>
+                            <td>19</td>
+                            <td>20</td>
+                        </tr>
+
+                        <tr>
+                            <td>21</td>
+                            <td>22</td>
+                            <td>23</td>
+                            <td>24</td>
+                            <td>25</td>
+                            <td>26</td>
+                            <td>27</td>
+                        </tr>
+
+                        <tr>
+                            <td>28</td>
+                            <td>29</td>
+                            <td>30</td>
+                            <td>31</td>
+                            <td class="opaco">1</td>
+                            <td class="opaco">2</td>
+                            <td class="opaco">3</td>
+                        </tr>
+                    </table>
+
+                    <div id="alinhamentoSelect">
+                        <div id="selectHorarios">
+                        
+                            <select name="" class="modalidadeHorarios">
+                                <option value="">Modalidades disponível</option>
+                                <option value="">Futebol</option>
+                                <option value="">Hockey</option>
+                                <option value="">Tênis de Mesa</option>
+                                <option value="">Vôlei</option>
+                                <option value="">Totó</option>
+                                <option value="">Natação</option>
+                            </select>
+
+                            
+                            <select class="modalidadeHorarios">
+                                <option>Horários disponíveis</option>
+                                <option>14:00 - 15:00</option>
+                                <option>15:00 - 16:00</option>
+                                <option>16:00 - 17:00</option>
+                                <option>17:00 - 18:00</option>
+                                <option>18:00 - 19:00</option>
+                                <option>19:00 - 20:00</option>
+                                <option>20:00 - 21:00</option>
+                                <option>21:00 - 22:00</option>
+                                <option>22:00 - 23:00</option>
+                            </select>
+                        </div>
+
+                        <div id="buttons2">
+                            <button id="confirmar" class="btns" onclick="marcar()"><img src="../../imagens/ok.png" alt="">Confirmar</button>
+                            <a href="../manterSocios.html"><button id="cancelar" class="btns"><img src="../../imagens/cancelar.png" alt="">Cancelar</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <footer id="rodape">
+        <p>&copy;Projeto desenvolvido por: <a href="" class="negrito">Bianca Novaes</a> e <a href="" class="negrito">Jonathan Vianna</a></p>
+    </footer>
+</body>
+</html>
